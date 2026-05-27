@@ -8,8 +8,9 @@ st.title("🔍 NetSuite Role Comparator")
 st.write("Upload Sandbox and Production Excel files to compare roles and permissions.")
 
 # Upload files
-sandbox_file = st.file_uploader("Upload Sandbox File", type=["xlsx"])
-production_file = st.file_uploader("Upload Production File", type=["xlsx"])
+sandbox_file = st.file_uploader("Upload Sandbox File", type=["xlsx", "xls"])
+production_file = st.file_uploader("Upload Production File", type=["xlsx", "xls"])
+``
 
 # 🔧 CHANGE THESE if your column names are different
 KEY_COLUMN = "Role Name"
