@@ -94,4 +94,3 @@ if sandbox_file and production_file:
 
 else:
     st.info("👆 Upload both Excel files to start comparison.")
-``
